@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&family=Great+Vibes&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    /* background-color: rgb(252, 255, 203);
+     */
+     background-color: transparent;
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+.ml-2{
+    margin-right: 1.2rem;
+}
+.header{
+    
+    background-color: rgb(236, 236, 24);
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 21px;
+}
+.left{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #160F30;
+    /* font-family: "Great Vibes"; */
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.flex{
+    display: flex;
+}
+.addbutton{
+    font-size: 2.2rem;
+    color: #160F30;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.parent__box{
+    border: 2px solid goldenrod;
+    border-radius: 21px;
+    height: 5rem;
+    width: 70%;
+}
+.head__box{
+    height: 4rem;
+    font-size: 1.2rem;
+}
+.body__box{
+    height: 8rem;
+    font-size: 1rem;
+}
+
+.right__side{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.fog{
+    padding: 21px;
+}
+.logo__image{
+    height: 83px;
+    width: 85px;
+    border-radius: 21px;
+    filter: invert(100%);
+   
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    padding: 6px 21px;
+}
+.box{
+    height: 180px;
+    width: 284px;
+    border-radius: 6px;
+    border: 2px solid;
+    margin: 21px;
+    position: relative;
+   
+}
+.edit , .delete{
+    cursor: pointer;
+}
+.fa-edit, .fa-trash-alt{
+    color: #fff;
+    padding: 10px;
+    background-color: #2ecc71;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 12px;
+}
+.fa-trash-alt{
+    background-color: #e74c3c;
+}
+.fa-edit:hover{
+    background-color: #fff;
+    color: #27ae60;
+    filter: drop-shadow(0px 10px 8px rgb(219,218,218));
+}
+.fa-trash-alt:hover{
+    background-color: #fff;
+    color: #e74c3c;
+    filter: drop-shadow(0px 10px 8px rgb(219,218,218));
+}
+.operation{
+    display: flex;
+    justify-content: end;
+    padding: 6px;
+}
+.text__box{
+    max-height: 125px;
+    overflow-y: scroll;
+    position: absolute;
+    height: 128px;
+    width: 280px;
+    font-size: 1.1rem;
+    padding: 21px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.text__area{
+    height: 128px;
+    width: 270px;
+    box-sizing: border-box;
+    padding: 21px;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    resize: none;    
+    position: absolute;
+
+}
+
+.hidden{
+    display: none;
+}
+
+.body-dt{
+    background-color:#212121;
+}
+
+.dark__box{
+    background-color: #525252;
+    color: #fff;
+    border: 2px solid transparent ;
+}
+.dark__textArea{
+    background-color: #525252;
+    color: #fff;
+}
+.fa-moon, .fa-sun{
+    font-size: 1.7rem;
+    color: #160F30;
+    padding: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
